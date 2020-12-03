@@ -29,6 +29,86 @@ namespace AddressBookSystem
             
         }
 
+        public string getFirst_name()
+        {
+            return first_name;
+        }
+
+        public void setFirst_name(string first_name)
+        {
+            this.first_name = first_name;
+        }
+
+        public string getLast_name()
+        {
+            return last_name;
+        }
+
+        public void setLast_name(string last_name)
+        {
+            this.last_name = last_name;
+        }
+
+        public string getAddress()
+        {
+            return address;
+        }
+
+        public void setAddress(string address)
+        {
+            this.address = address;
+        }
+
+        public string getCity()
+        {
+            return city;
+        }
+
+        public void setCity(string city)
+        {
+            this.city = city;
+        }
+
+        public string getState()
+        {
+            return state;
+        }
+
+        public void setState(string state)
+        {
+            this.state = state;
+        }
+
+        public int getZip()
+        {
+            return zip;
+        }
+
+        public void setZip(int zip)
+        {
+            this.zip = zip;
+        }
+
+        public long getPhone_number()
+        {
+            return phone_number;
+        }
+
+        public void setPhone_number(long phone_number)
+        {
+            this.phone_number = phone_number;
+        }
+
+        public string getEmail()
+        {
+            return email;
+        }
+
+        public void setEmail(string email)
+        {
+            this.email = email;
+        }
+
         public string toString()
         {
 
